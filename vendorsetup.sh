@@ -64,6 +64,8 @@ git fetch https://github.com/ryznstk/hardware_interfaces bq2
 git reset --hard FETCH_HEAD
 croot
 
+git clone https://github.com/kenway214/packages_apps_TouchServices.git -b lineage-23.2 packages/apps/TouchServices
+
 #cd system/sepolicy
 #git fetch https://github.com/ryznstk/system_sepolicy.git bq2
 #git reset --hard FETCH_HEAD
