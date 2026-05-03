@@ -226,6 +226,10 @@ PRODUCT_PACKAGES += \
     android.hardware.health-service.qti \
     android.hardware.health-service.qti_recovery
 
+# HWUI
+TARGET_USES_VULKAN := true
+HWUI_COMPILE_FOR_PERF := true
+
 # IPACM
 PRODUCT_PACKAGES += \
     ipacm \
