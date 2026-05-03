@@ -18,7 +18,7 @@ static const variant_info_t global_variant = {
     .name = "peridot_global",
     .marketname = "POCO F6",
     .model = "24069PC21G",
-    .build_fingerprint = "POCO/peridot_global/peridot:14/UKQ1.240624.001/OS2.0.207.0.VNPMIXM:user/release-keys",
+    .build_fingerprint = "POCO/peridot_global/peridot:16/BP2A.250605.031.A3/OS3.0.6.0.WNPMIXM:user/release-keys",
 };
 
 static const variant_info_t indian_variant = {
@@ -30,7 +30,7 @@ static const variant_info_t indian_variant = {
     .name = "peridot_global",
     .marketname = "POCO F6",
     .model = "24069PC21I",
-    .build_fingerprint = "POCO/peridot_global/peridot:14/UKQ1.240624.001/OS2.0.207.0.VNPMIXM:user/release-keys",
+    .build_fingerprint = "POCO/peridot_global/peridot:16/BP2A.250605.031.A3/OS3.0.6.0.WNPMIXM:user/release-keys",
 };
 
 static const variant_info_t chinese_variant = {
@@ -42,7 +42,7 @@ static const variant_info_t chinese_variant = {
     .name = "peridot_global",
     .marketname = "Redmi Turbo 3",
     .model = "24069RA21C",
-    .build_fingerprint = "Redmi/peridot/peridot:14/UKQ1.240116.001/V816.0.18.0.UNPCNXM:user/release-keys",
+    .build_fingerprint = "Redmi/peridot/peridot:15/AQ3A.240912.001/OS2.0.101.0.VNPCNXM:user/release-keys",
 };
 
 static const std::vector<variant_info_t> variants = {
