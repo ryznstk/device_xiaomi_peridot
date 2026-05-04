@@ -23,6 +23,9 @@ git clone -b lineage-23.2 https://github.com/ryznstk/hardware_xiaomi_los.git har
 
 rm -rf packages/apps/XiaomiDolby
 
+rm -rf packages/apps/AxionFx
+rm -rf external/steam-audio
+
 # MiuiCamera device tree (fresh clone)
 echo "Cloning MiuiCamera device tree..."
 rm -rf device/xiaomi/peridot-miuicamera
@@ -44,9 +47,6 @@ rm -rf packages/apps/XiaomiParts
 rm -rf packages/apps/ViPER4AndroidFX
 git clone https://github.com/TogoFire/packages_apps_ViPER4AndroidFX.git packages/apps/ViPER4AndroidFX
 
-rm -rf packages/apps/AxionFx
-git clone https://github.com/AxionAOSP/android_packages_apps_AxionFx.git packages/apps/AxionFx
-
 # LMO
 echo "fetching LMOfreeroam tree..."
 cd packages/apps/LMOFreeform
@@ -59,11 +59,7 @@ echo "Cloning KProfiles..."
 rm -rf packages/apps/KProfiles
 git clone https://github.com/ryznstk/packages_apps_KProfiles.git packages/apps/KProfiles
 
-cd hardware/interfaces
-git fetch https://github.com/ryznstk/hardware_interfaces bq2
-git reset --hard FETCH_HEAD
-croot
-
+rm-rf packages/apps/TouchServices
 git clone https://github.com/kenway214/packages_apps_TouchServices.git -b lineage-23.2 packages/apps/TouchServices
 
 #cd system/sepolicy
@@ -80,14 +76,6 @@ git clone https://github.com/kenway214/packages_apps_TouchServices.git -b lineag
 #git fetch https://github.com/ryznstk/packages_apps_Evolver.git bq2
 #git reset --hard FETCH_HEAD
 #croot
-
-rm -rf external/steam-audio
-git clone -b lineage-23.2 https://github.com/AxionAOSP/android_external_steam-audio.git external/steam-audio
-
-cd external/pffft
-git fetch https://github.com/AxionAOSP/android_external_pffft lineage-23.2
-git reset --hard FETCH_HEAD
-croot
 
 cd device/qcom/sepolicy_vndr/sm8650
 git fetch https://github.com/LineageOS/android_device_qcom_sepolicy_vndr.git lineage-23.2-caf-sm8650
