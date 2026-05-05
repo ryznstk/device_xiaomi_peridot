@@ -4,7 +4,7 @@ allow hal_power_default sysfs_gpu:file { read write open };
 allow hal_power_default sysfs_gpu:dir { search };
 
 # Additional rule for sysfs CPU nodes
-allow hal_power_default sysfs_devices_system_cpu:file rw_file_perms;
+allow hal_power_default sysfs_devices_system_cpu:file { rw_file_perms ioctl };
 
 allow hal_power_default {
   vendor_sysfs_devfreq
