@@ -80,10 +80,10 @@ croot
 #git reset --hard FETCH_HEAD
 #croot
 
-#cd frameworks/base
-#git fetch https://github.com/ryznstk/evo_frameworks_base.git bq2
-#git reset --hard FETCH_HEAD
-#croot
+cd vendor/evolution
+git fetch https://github.com/ryznstk/vendor_evolution bq2
+git reset --hard FETCH_HEAD
+croot
 
 #cd packages/apps/Evolver
 #git fetch https://github.com/ryznstk/packages_apps_Evolver.git bq2
