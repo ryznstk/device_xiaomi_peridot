@@ -107,3 +107,6 @@
 /sys/devices/virtual/touch/touch_dev/ear_sensor u:object_r:sysfs_tp_virtual_prox:s0
 /sys/devices/virtual/touch/touch_dev/palm_sensor u:object_r:sysfs_tp_virtual_prox:s0
 /vendor/bin/hw/vendor\.lineage\.touch-service\.xiaomi u:object_r:hal_lineage_touch_default_exec:s0
+
+# CPU
+/sys/devices/system/cpu/cpufreq/policy[0-9]+(/.*)?    u:object_r:sysfs_devices_system_cpu:s0
