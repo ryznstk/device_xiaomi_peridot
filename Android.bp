@@ -10,8 +10,8 @@ soong_namespace {
         "hardware/lineage/interfaces/power-libperfmgr",
         "hardware/qcom-caf/common/libqti-perfd-client",
         "hardware/xiaomi",
-        "vendor/xiaomi/peridot"
-        "packages/apps/AxionFx"
+        "vendor/xiaomi/peridot",
+        "packages/apps/AxionFx",
     ],
 }
 
