@@ -62,6 +62,19 @@ git clone https://github.com/ryznstk/packages_apps_KProfiles.git packages/apps/K
 rm-rf packages/apps/TouchServices
 git clone https://github.com/kenway214/packages_apps_TouchServices.git -b lineage-23.2 packages/apps/TouchServices
 
+cd hardware/interfaces
+git fetch https://github.com/ryznstk/hardware_interfaces bq2
+git reset --hard FETCH_HEAD
+croot
+
+rm -rf external/steam-audio
+git clone -b lineage-23.2 https://github.com/AxionAOSP/android_external_steam-audio.git external/steam-audio
+
+cd external/pffft
+git fetch https://github.com/AxionAOSP/android_external_pffft lineage-23.2
+git reset --hard FETCH_HEAD
+croot
+
 #cd system/sepolicy
 #git fetch https://github.com/ryznstk/system_sepolicy.git bq2
 #git reset --hard FETCH_HEAD
