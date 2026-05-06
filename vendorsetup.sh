@@ -80,7 +80,7 @@ croot
 #git reset --hard FETCH_HEAD
 #croot
 
-cd vendor/evolution
+cd vendor/lineage
 git fetch https://github.com/ryznstk/vendor_evolution bq2
 git reset --hard FETCH_HEAD
 croot
