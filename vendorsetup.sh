@@ -24,7 +24,10 @@ git clone -b lineage-23.2 https://github.com/ryznstk/hardware_xiaomi_los.git har
 rm -rf packages/apps/XiaomiDolby
 
 rm -rf packages/apps/AxionFx
+git clone https://github.com/AxionAOSP/android_packages_apps_AxionFx.git packages/apps/AxionFx
+
 rm -rf external/steam-audio
+git clone -b lineage-23.2 https://github.com/AxionAOSP/android_external_steam-audio.git external/steam-audio
 
 # MiuiCamera device tree (fresh clone)
 echo "Cloning MiuiCamera device tree..."
