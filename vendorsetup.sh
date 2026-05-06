@@ -88,6 +88,16 @@ git fetch https://github.com/ryznstk/vendor_evolution bq2
 git reset --hard FETCH_HEAD
 croot
 
+cd frameworks/av
+git fetch https://github.com/ryznstk/evo_frameworks_av bq2
+git reset --hard FETCH_HEAD
+croot
+
+cd system/media
+git fetch https://github.com/ryznstk/system_media bq2
+git reset --hard FETCH_HEAD
+croot
+
 #cd packages/apps/Evolver
 #git fetch https://github.com/ryznstk/packages_apps_Evolver.git bq2
 #git reset --hard FETCH_HEAD
