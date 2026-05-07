@@ -62,7 +62,7 @@ echo "Cloning KProfiles..."
 rm -rf packages/apps/KProfiles
 git clone https://github.com/ryznstk/packages_apps_KProfiles.git packages/apps/KProfiles
 
-rm-rf packages/apps/TouchServices
+rm -rf packages/apps/TouchServices
 git clone https://github.com/kenway214/packages_apps_TouchServices.git -b lineage-23.2 packages/apps/TouchServices
 
 cd hardware/interfaces
