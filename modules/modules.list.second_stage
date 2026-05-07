@@ -191,14 +191,6 @@ msm_ext_display.ko
 sync_fence.ko
 msm_hw_fence.ko
 msm-mmrm.ko
-<<<<<<< HEAD:modules/modules.load.vendor_dlkm
-nxp-nci.ko
-spcom.ko
-spss_utils.ko
-msm_video.ko
-msm_kgsl.ko
-dcvs_boost.ko
-=======
 smcinvoke_dlkm.ko
 xiaomi_touch.ko
 goodix_ts.ko
@@ -210,4 +202,3 @@ snd_event_dlkm.ko
 q6_notifier_dlkm.ko
 q6_pdr_dlkm.ko
 adsp_loader_dlkm.ko
->>>>>>> d21a5db (peridot: modules: Simplify kernel modules list):modules/modules.list.second_stage
